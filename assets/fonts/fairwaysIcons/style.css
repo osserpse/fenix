@@ -1,0 +1,308 @@
+@font-face {
+  font-family: 'fairwaysIcons';
+  src:
+    url('fonts/fairwaysIcons.ttf?88re8r') format('truetype'),
+    url('fonts/fairwaysIcons.woff?88re8r') format('woff'),
+    url('fonts/fairwaysIcons.svg?88re8r#fairwaysIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="fwico-"], [class*=" fwico-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fairwaysIcons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fwico-debt-features-comments:before {
+  content: "\e90b";
+}
+.fwico-debt-features-documents:before {
+  content: "\e90c";
+}
+.fwico-debt-features-tags:before {
+  content: "\e90d";
+}
+.fwico-dashboard-layout-1-2:before {
+  content: "\e906";
+}
+.fwico-dashboard-layout-1:before {
+  content: "\e907";
+}
+.fwico-dashboard-layout-2-1:before {
+  content: "\e908";
+}
+.fwico-dashboard-layout-2:before {
+  content: "\e909";
+}
+.fwico-dashboard-layout-3:before {
+  content: "\e90a";
+}
+.fwico-user:before {
+  content: "\e905";
+}
+.fwico-grid:before {
+  content: "\e904";
+}
+.fwico-fx-utils-excel:before {
+  content: "\e64e";
+}
+.fwico-fx-utils-simple_risk:before {
+  content: "\e64f";
+}
+.fwico-fx-utils-risk:before {
+  content: "\e646";
+}
+.fwico-fx-utils-buy:before {
+  content: "\e647";
+}
+.fwico-fx-utils-composite_exposure:before {
+  content: "\e648";
+}
+.fwico-fx-utils-date-off:before {
+  content: "\e649";
+}
+.fwico-fx-utils-date:before {
+  content: "\e64a";
+}
+.fwico-fx-utils-simple_exposure:before {
+  content: "\e64b";
+}
+.fwico-fx-utils-sell:before {
+  content: "\e64c";
+}
+.fwico-fx-utils-trade:before {
+  content: "\e64d";
+}
+.fwico-home:before {
+  content: "\e645";
+}
+.fwico-debt-analysis-balance:before {
+  content: "\e600";
+}
+.fwico-debt-analysis-capital:before {
+  content: "\e601";
+}
+.fwico-debt-analysis-interest:before {
+  content: "\e602";
+}
+.fwico-debt-analysis-overall:before {
+  content: "\e603";
+}
+.fwico-debt-analysis-profile:before {
+  content: "\e604";
+}
+.fwico-debt-analysis-risks:before {
+  content: "\e605";
+}
+.fwico-debt-analysis:before {
+  content: "\e606";
+}
+.fwico-debt-backoffice-account-details:before {
+  content: "\e607";
+}
+.fwico-debt-backoffice-entity-details:before {
+  content: "\e608";
+}
+.fwico-debt-backoffice-home-consultant:before {
+  content: "\e609";
+}
+.fwico-debt-backoffice-organization-details:before {
+  content: "\e60a";
+}
+.fwico-debt-backoffice-organization-settings:before {
+  content: "\e60b";
+}
+.fwico-debt-backoffice-user-details:before {
+  content: "\e60c";
+}
+.fwico-debt-calendar:before {
+  content: "\e60d";
+}
+.fwico-debt-common-style-guide:before {
+  content: "\e60e";
+}
+.fwico-debt-common-unauthorized:before {
+  content: "\e60f";
+}
+.fwico-debt-dashboard:before {
+  content: "\e610";
+}
+.fwico-debt-deal-vanilla-loan-details:before {
+  content: "\e611";
+}
+.fwico-debt-filter-list:before {
+  content: "\e612";
+}
+.fwico-debt-filter:before {
+  content: "\e613";
+}
+.fwico-debt-line-chart-analytics:before {
+  content: "\e614";
+}
+.fwico-debt-market:before {
+  content: "\e615";
+}
+.fwico-debt-operations-logs-log:before {
+  content: "\e616";
+}
+.fwico-debt-operations-platform-index:before {
+  content: "\e617";
+}
+.fwico-debt-operations-watcher:before {
+  content: "\e618";
+}
+.fwico-debt-portfolio-draft:before {
+  content: "\e619";
+}
+.fwico-debt-portfolio-integration-details:before {
+  content: "\e61a";
+}
+.fwico-debt-portfolio-integration-list:before {
+  content: "\e61b";
+}
+.fwico-debt-portfolio-integration-product-details:before {
+  content: "\e61c";
+}
+.fwico-debt-portfolio:before {
+  content: "\e61d";
+}
+.fwico-debt-report:before {
+  content: "\e61e";
+}
+.fwico-debt-reporting-custom:before {
+  content: "\e61f";
+}
+.fwico-debt-reporting:before {
+  content: "\e620";
+}
+.fwico-fx-menu-account:before {
+  content: "\e621";
+}
+.fwico-fx-menu-banks:before {
+  content: "\e622";
+}
+.fwico-fx-menu-calendar:before {
+  content: "\e623";
+}
+.fwico-fx-menu-createOperation:before {
+  content: "\e624";
+}
+.fwico-fx-menu-emir-documentation:before {
+  content: "\e625";
+}
+.fwico-fx-menu-index-accounts:before {
+  content: "\e626";
+}
+.fwico-fx-menu-index-alerts:before {
+  content: "\e627";
+}
+.fwico-fx-menu-index-analysis:before {
+  content: "\e628";
+}
+.fwico-fx-menu-index-bank-accounts:before {
+  content: "\e629";
+}
+.fwico-fx-menu-index-countries:before {
+  content: "\e62a";
+}
+.fwico-fx-menu-index-emir-export:before {
+  content: "\e62b";
+}
+.fwico-fx-menu-index-emir:before {
+  content: "\e62c";
+}
+.fwico-fx-menu-index-exposures:before {
+  content: "\e62d";
+}
+.fwico-fx-menu-index-market:before {
+  content: "\e62e";
+}
+.fwico-fx-menu-index-portfolio-filters:before {
+  content: "\e62f";
+}
+.fwico-fx-menu-index-portfolio:before {
+  content: "\e630";
+}
+.fwico-fx-menu-index-release:before {
+  content: "\e631";
+}
+.fwico-fx-menu-index-reporting:before {
+  content: "\e632";
+}
+.fwico-fx-menu-index-risks:before {
+  content: "\e633";
+}
+.fwico-fx-menu-index-templates:before {
+  content: "\e634";
+}
+.fwico-fx-menu-internals:before {
+  content: "\e635";
+}
+.fwico-fx-menu-page-download:before {
+  content: "\e636";
+}
+.fwico-fx-menu-page-settings:before {
+  content: "\e637";
+}
+.fwico-fx-menu-page-users:before {
+  content: "\e638";
+}
+.fwico-fx-menu-tr-reports:before {
+  content: "\e639";
+}
+.fwico-fx-menu-uploadOperations:before {
+  content: "\e63a";
+}
+.fwico-fx-product-forward:before {
+  content: "\e63b";
+}
+.fwico-fx-product-knock_out_accumulator:before {
+  content: "\e63c";
+}
+.fwico-fx-product-ndf:before {
+  content: "\e63d";
+}
+.fwico-fx-product-rollover:before {
+  content: "\e63e";
+}
+.fwico-fx-product-spot:before {
+  content: "\e63f";
+}
+.fwico-fx-product-swap:before {
+  content: "\e640";
+}
+.fwico-fx-product-take_earlier:before {
+  content: "\e641";
+}
+.fwico-fx-product-trigger_option:before {
+  content: "\e642";
+}
+.fwico-fx-product-accumulator:before {
+  content: "\e643";
+}
+.fwico-fx-product-vanilla_option:before {
+  content: "\e644";
+}
+.fwico-debt-backoffice-account-theming-details:before {
+  content: "\e901";
+}
+.fwico-debt-backoffice-account-structure-details:before {
+  content: "\e900";
+}
+.fwico-debt-backoffice-account-features-details:before {
+  content: "\e902";
+}
+.fwico-debt-backoffice-account-configuration-details:before {
+  content: "\e903";
+}
+

@@ -1,0 +1,13 @@
+html {
+	font-size: 100%;
+}
+
+body {
+}
+
+.ki-header-title--blue {
+	background-color: #003DA5;
+	color: #fff;
+	margin: -.7rem;
+	padding: .7rem;
+}

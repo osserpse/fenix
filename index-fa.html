@@ -1,0 +1,1775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UXG test page</title>
+
+  <link href="./assets/css/foundation-sites.css" rel="stylesheet">
+  <link href="./assets/css/fonts.css" rel="stylesheet">
+  <link href="./assets/css/app.css" rel="stylesheet">
+  <!-- <link href="./assets/css/ki.css" rel="stylesheet"> -->
+</head>
+<body>
+
+<div class="row">
+  <div class="medium-9 medium-centered bg-white padding-all-l columns">
+
+    <h1>UXG Test page</h1>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Building form</h2>
+
+    <form>
+      <div class="row margin-b">
+        <div class="large-12 columns">
+          <label>Input Label
+            <input type="text" placeholder="large-12.columns"/>
+          </label>
+        </div>
+      </div>
+      <div class="row margin-b">
+        <div class="large-4 columns">
+          <label>Input Label
+            <input type="text" placeholder="large-4.columns"/>
+          </label>
+        </div>
+        <div class="large-4 columns">
+          <label>Input Label
+            <input type="text" placeholder="large-4.columns"/>
+          </label>
+        </div>
+        <div class="large-4 columns">
+          <div class="row collapse">
+            <label>Input Label</label>
+            <div class="small-9 columns">
+              <input type="text" placeholder="small-9.columns"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row margin-b">
+        <div class="large-12 columns">
+          <label>Select Box
+            <select>
+              <option value="husker">Husker</option>
+              <option value="starbuck">Starbuck</option>
+              <option value="hotdog">Hot Dog</option>
+              <option value="apollo">Apollo</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <div class="row margin-b">
+        <div class="large-12 columns">
+          <label>Textarea Label
+            <textarea placeholder="small-12.columns"></textarea>
+          </label>
+        </div>
+      </div>
+      <div class="row margin-b">
+        <div class="large-6 columns">
+          <label class="border-b margin-b-s">Radio</label>
+          <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
+          <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
+        </div>
+        <div class="large-6 columns">
+          <label class="border-b margin-b-s">Checkbox</label>
+          <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+          <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-6 columns">
+          <label class="option_label primary" for="radio-one">
+            <input type="radio" name="exampleRadios" id="radio-one" value="radio-one">
+            <i></i> <span>Radio One</span>
+          </label>
+
+          <label class="option_label secondary" for="radio-two">
+            <input type="radio" name="exampleRadios" id="radio-two" value="doggie">
+            <i></i> <span>Radio Two</span>
+          </label>
+        </div>
+        <div class="medium-6 columns">
+          <div class="row">
+            <div class="medium-6 columns">
+              <label class="option_label default" for="check-all">
+                <input type="checkbox" name="check-one" id="check-all" value="check-all">
+                <i></i> <span>All</span>
+              </label>
+              <label class="option_label info" for="check-one">
+                <input type="checkbox" name="check-one" id="check-one" value="check-one">
+                <i></i> <span>Loan</span>
+              </label>
+              <label class="option_label success" for="check-two">
+                <input type="checkbox" name="check-two" id="check-two" value="check-two">
+                <i></i> <span>Derivative</span>
+              </label>
+              <label class="option_label violet" for="check-three">
+                <input type="checkbox" name="check-three" id="check-three" value="check-three">
+                <i></i> <span>Security</span>
+              </label>
+            </div>
+            <div class="medium-6 columns">
+              <label class="option_label warning" for="check-four">
+                <input type="checkbox" name="check-three" id="check-four" value="check-four">
+                <i></i> <span>Issuing Program</span>
+              </label>
+              <label class="option_label alert" for="check-five">
+                <input type="checkbox" name="check-three" id="check-five" value="check-five">
+                <i></i> <span>Facility</span>
+              </label>
+              <label class="option_label primary" for="check-six">
+                <input type="checkbox" name="check-three" id="check-six" value="check-six">
+                <i></i> <span>Guarantee</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Buttons</h2>
+
+    <div class="row margin-b-s">
+      <div class="medium-12 columns">
+        <a class="button tiny" href="#">So Tiny</a>
+        <a class="button small" href="#">So Small</a>
+        <a class="button" href="#">So Basic</a>
+        <a class="button large" href="#">So Large</a>
+      </div>
+    </div>
+    <div class="row margin-b-s">
+      <div class="medium-12 columns">
+        <a class="button expanded" href="#">Such Expand</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="medium-12 columns">
+        <a class="button small expanded" href="#">Wow, Small Expand</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="medium-6 columns">
+        <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Coloring buttons</h2>
+        <div class="row margin-b-s">
+          <div class="medium-12 columns">
+            <a class="button primary" href="#">Primary</a>
+            <a class="button secondary" href="#">Secondary</a>
+            <a class="button success" href="#">Success</a>
+            <a class="button alert" href="#">Alert</a>
+            <a class="button warning" href="#">Warning</a>
+          </div>
+        </div>
+      </div>
+      <div class="medium-6 columns">
+        <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Disabled coloring buttons</h2>
+        <div class="row margin-b-s">
+          <div class="medium-12 columns">
+            <button type="button" class="button primary" disabled>Primary</button>
+            <button type="button" class="button secondary" disabled>Secondary</button>
+            <button type="button" class="button success" disabled>Success</button>
+            <button type="button" class="button alert" disabled>Alert</button>
+            <button type="button" class="button warning" disabled>Warning</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="medium-6 columns">
+        <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Hollow buttons</h2>
+        <div class="row margin-b-s">
+          <div class="medium-12 columns">
+            <a class="button hollow primary" href="#">Primary</a>
+            <a class="button hollow secondary" href="#">Secondary</a>
+            <a class="button hollow success" href="#">Success</a>
+            <a class="button hollow alert" href="#">Alert</a>
+            <a class="button hollow warning" href="#">Warning</a>
+          </div>
+        </div>
+      </div>
+      <div class="medium-6 columns">
+        <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Inverted buttons</h2>
+        <div class="row margin-b-s">
+          <div class="medium-12 columns">
+            <button type="button" class="button inverted primary">Primary</button>
+            <button type="button" class="button inverted secondary">Secondary</button>
+            <button type="button" class="button inverted success">Success</button>
+            <button type="button" class="button inverted alert">Alert</button>
+            <button type="button" class="button inverted warning">Warning</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Dropdown arrow</h2>
+
+    <div class="row margin-b-s">
+      <div class="medium-12 columns">
+        <button class="dropdown button tiny ">Dropdown Button</button>
+        <button class="dropdown button small ">Dropdown Button</button>
+        <button class="dropdown button">Dropdown Button</button>
+        <button class="dropdown button large ">Dropdown Button</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="medium-12 columns">
+        <button class="dropdown button expanded ">Dropdown Button</button>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Button group</h2>
+
+    <div class="row">
+      <div class="medium-12 columns">
+        <div class="button-group">
+          <a class="button">One</a>
+          <a class="button">Two</a>
+          <a class="button">Three</a>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="margin-t margin-b padding-b-xs border-b c-primary">Labels & badges</h2>
+
+    <div class="row margin-b">
+      <div class="medium-2 columns"><span class="label">Default Label</span></div>
+      <div class="medium-2 columns"><span class="label success">Success Label</span></div>
+      <div class="medium-2 columns"><span class="label warning">Warning Label</span></div>
+      <div class="medium-2 columns"><span class="label alert">Alert Label</span></div>
+      <div class="medium-2 columns"><span class="label info">Info Label</span></div>
+      <div class="medium-2 columns"><span class="label gray">Gray Label</span></div>
+    </div>
+
+    <div class="row margin-b">
+      <div class="medium-2 columns"><span class="badge">1</span></div>
+      <div class="medium-2 columns"><span class="badge success">2</span></div>
+      <div class="medium-2 columns"><span class="badge warning">3</span></div>
+      <div class="medium-2 columns"><span class="badge alert">4</span></div>
+      <div class="medium-2 columns"><span class="badge info">5</span></div>
+      <div class="medium-2 columns"><span class="badge gray">99+</span></div>
+    </div>
+
+    <div class="row">
+      <div class="medium-2 columns"><span class="tip-label above">Above Tip</span></div>
+      <div class="medium-2 columns"><span class="tip-label below">Below Tip</span></div>
+      <div class="medium-2 columns"><span class="tip-label left">Left Tip</span></div>
+      <div class="medium-2 columns"><span class="tip-label right">Right Tip</span></div>
+      <div class="medium-2 columns"><span class="tip-label warning">Colored Tip</span></div>
+      <div class="medium-2 columns"><span class="tip-label warning hollow">Hollow Tip</span></div>
+    </div>
+
+    <h2 class="margin-t margin-b padding-b-xs border-b c-primary">Headers</h2>
+
+    <div class="row">
+      <div class="medium-12 columns">
+        <h1 class="margin-b-xs">h1. This is a very large header.</h1>
+        <h2 class="margin-b-xs">h2. This is a large header.</h2>
+        <h3 class="margin-b-xs">h2. This is a medium header.</h3>
+        <h4 class="margin-b-xs">h4. This is a moderate header.</h4>
+        <h5 class="margin-b-xs">h5. This is a small header.</h5>
+        <h6>h6. This is a tiny header.</h6>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Subeaders</h2>
+
+    <div class="row">
+      <div class="medium-12 columns">
+        <h1 class="margin-b-xs"><small>h1.subheader This is a very large header.</small></h1>
+        <h2 class="margin-b-xs"><small>h2.subheader This is a large header.</small></h2>
+        <h3 class="margin-b-xs"><small>h2.subheader This is a medium header.</small></h3>
+        <h4 class="margin-b-xs"><small>h4.subheader This is a moderate header.</small></h4>
+        <h5 class="margin-b-xs"><small>h5.subheader This is a small header.</small></h5>
+        <h6 class=""><small>h6.subheader This is a tiny header.</small></h6>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Lists</h2>
+
+    <div class="row">
+      <div class="medium-12 columns">
+        <h4 class="margin-b-xs">Unordered list</h4>
+        <ul>
+          <li>List item with a much longer description or more content.</li>
+          <li>List item</li>
+          <li>List item
+            <ul>
+              <li>Nested list item</li>
+              <li>Nested list item</li>
+              <li>Nested list item</li>
+            </ul>
+          </li>
+          <li>List item</li>
+          <li>List item</li>
+          <li>List item</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Ordered lists</h2>
+
+    <div class="row">
+      <div class="medium-12 columns">
+        <ol>
+          <li>Cheese (essential)</li>
+          <li>Pepperoni</li>
+          <li>Bacon
+            <ol>
+              <li>Normal bacon</li>
+              <li>Canadian bacon</li>
+            </ol>
+          </li>
+          <li>Sausage</li>
+          <li>Onions</li>
+          <li>Mushrooms</li>
+        </ol>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Definition lists</h2>
+
+    <div class="row">
+      <div class="medium-12 columns">
+        <dl>
+          <dt>Time</dt>
+          <dd>The indefinite continued progress of existence and events in the past, present, and future regarded as a whole.</dd>
+          <dt>Space</dt>
+          <dd>A continuous area or expanse that is free, available, or unoccupied.</dd>
+          <dd>The dimensions of height, depth, and width within which all things exist and move.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Blockquotes</h2>
+
+    <div class="row">
+      <div class="medium-12 columns">
+        <blockquote>
+          Those people who think they know everything are a great annoyance to those of us who do.
+          <cite>Isaac Asimov</cite>
+        </blockquote>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Abbreviations</h2>
+
+    <div class="row">
+      <div class="medium-12 columns">
+        <p>In my dream last night, I saw <abbr title="John Ronald Reuel">J. R. R.</abbr> Tolkien and George
+          <abbr title="Raymond Richard">R. R.</abbr> Martin hanging out on Sunset <abbr title="Boulevard">Blvd</abbr>.</p>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Code</h2>
+
+    <div class="row">
+      <div class="medium-12 columns">
+        Remember to escape angle brackets when printing HTML: <code> &lt;div&gt; Mon code &lt;/div&gt; </code>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Basic menu + active item</h2>
+
+    <div class="row">
+      <div class="medium-12 columns">
+        <ul class="menu">
+          <li class="active"><a>Home</a></li>
+          <li><a>About</a></li>
+          <li><a>Nachos</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Top bar</h2>
+
+    <div class="row">
+      <div class="medium-12 columns">
+        <div class="top-bar">
+          <div class="top-bar-left">
+            <ul class="menu" data-dropdown-menu>
+              <li class="menu-text">Site Title</li>
+              <li><a href="#">One</a></li>
+              <li><a href="#">Two</a></li>
+              <li><a href="#">Three</a></li>
+            </ul>
+          </div>
+          <div class="top-bar-right">
+            <ul class="menu">
+              <li><input type="search" placeholder="Search"></li>
+              <li>
+                <button type="button" class="button">Search</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Pagination</h2>
+
+    <div class="row">
+      <div class="medium-12 columns">
+        <ul class="pagination" role="navigation" aria-label="Pagination">
+          <li class="pagination-previous disabled">Previous <span class="show-for-sr">page</span></li>
+          <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+          <li><a href="#" aria-label="Page 2">2</a></li>
+          <li><a href="#" aria-label="Page 3">3</a></li>
+          <li><a href="#" aria-label="Page 4">4</a></li>
+          <li class="ellipsis" aria-hidden="true"></li>
+          <li><a href="#" aria-label="Page 12">12</a></li>
+          <li><a href="#" aria-label="Page 13">13</a></li>
+          <li class="pagination-next"><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Breadcrumbs</h2>
+
+    <div class="row">
+      <div class="medium-12 columns">
+        <nav aria-label="You are here:" role="navigation">
+          <ul class="breadcrumbs">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li class="disabled">Gene Splicing</li>
+            <li>
+              <span class="show-for-sr">Current: </span> Cloning
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Cards</h2>
+
+    <div class="row">
+      <div class="medium-12 columns">
+        <div class="card" style="width: 300px;">
+          <div class="card-divider padding-all">
+            This is a header
+          </div>
+          <div class="card-section padding-all">
+            <h4>This is a card.</h4>
+            <p>It has an easy to override visual style, and is appropriately subdued.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Table</h2>
+
+    <div class="row">
+      <div class="medium-12 columns">
+        <table class="separated margin-reset medium hover expanded collapse">
+          <thead>
+          <tr>
+            <th width="200">Table Header</th>
+            <th>Table Header</th>
+            <th width="150">Table Header</th>
+            <th width="150">Table Header</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Content Goes Here</td>
+            <td>This is longer content Donec.</td>
+            <td>Content Goes Here</td>
+            <td>Content Goes Here</td>
+          </tr>
+          <tr class="row-disabled">
+            <td>Content Goes Here</td>
+            <td>This is longer Content Goes...</td>
+            <td>Content Goes Here</td>
+            <td>Content Goes Here</td>
+          </tr>
+          <tr>
+            <td>Content Goes Here</td>
+            <td>This is longer Content Goes Here Donec id elit.</td>
+            <td>Content Goes Here</td>
+            <td>Content Goes Here</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Grid list</h2>
+
+    <style>
+      .color-block {
+        width: 10px;
+        height: 10px;
+      }
+    </style>
+
+    <div class="row up-1 medium-up-3 large-up-3">
+      <div class="column margin-b-xl">
+
+        <div class="row">
+          <div class="column small-2 c-primary">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-primary
+          </div>
+          <div class="column small-10 bg-primary c-primary-perceptive-luminance text-left">
+            c-primary-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-primary"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-primary
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-primary-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-primary-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-primary-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-primary-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-primary-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-primary-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-secondary">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-secondary
+          </div>
+          <div class="column small-10 bg-secondary c-secondary-perceptive-luminance text-left">
+            c-secondary-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-secondary"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-secondary
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-secondary-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-secondary-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-secondary-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-secondary-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-secondary-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-secondary-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-default">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-default
+          </div>
+          <div class="column small-10 bg-default c-default-perceptive-luminance text-left">
+            c-default-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-default"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-default
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-default-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-default-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-default-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-default-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-default-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-default-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-success">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-success
+          </div>
+          <div class="column small-10 bg-success c-success-perceptive-luminance text-left">
+            c-success-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-success"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-success
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-success-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-success-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-success-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-success-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-success-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-success-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-warning">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-warning
+          </div>
+          <div class="column small-10 bg-warning c-warning-perceptive-luminance text-left">
+            c-warning-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-warning"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-warning
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-warning-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-warning-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-warning-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-warning-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-warning-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-warning-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-alert">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-alert
+          </div>
+          <div class="column small-10 bg-alert c-alert-perceptive-luminance text-left">
+            c-alert-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-alert"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-alert
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-alert-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-alert-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-alert-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-alert-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-alert-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-alert-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-info">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-info
+          </div>
+          <div class="column small-10 bg-info c-info-perceptive-luminance text-left">
+            c-info-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-info"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-info
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-info-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-info-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-info-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-info-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-info-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-info-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-filter">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-filter
+          </div>
+          <div class="column small-10 bg-filter c-filter-perceptive-luminance text-left">
+            c-filter-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-filter"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-filter
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-filter-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-filter-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-filter-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-filter-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-filter-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-filter-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-simulation">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-simulation
+          </div>
+          <div class="column small-10 bg-simulation c-simulation-perceptive-luminance text-left">
+            c-simulation-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-simulation"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-simulation
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-simulation-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-simulation-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-simulation-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-simulation-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-simulation-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-simulation-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-finact">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-finact
+          </div>
+          <div class="column small-10 bg-finact c-finact-perceptive-luminance text-left">
+            c-finact-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-finact"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-finact
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-finact-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-finact-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-finact-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-finact-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-finact-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-finact-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-fairways">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-fairways
+          </div>
+          <div class="column small-10 bg-fairways c-fairways-perceptive-luminance text-left">
+            c-fairways-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-fairways"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-fairways
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-fairways-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-fairways-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-fairways-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-fairways-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-fairways-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-fairways-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-insito">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-insito
+          </div>
+          <div class="column small-10 bg-insito c-insito-perceptive-luminance text-left">
+            c-insito-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-insito"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-insito
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-insito-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-insito-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-insito-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-insito-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-insito-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-insito-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-violet">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-violet
+          </div>
+          <div class="column small-10 bg-violet c-violet-perceptive-luminance text-left">
+            c-violet-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-violet"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-violet
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-violet-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-violet-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-violet-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-violet-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-violet-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-violet-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-neutral">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-neutral
+          </div>
+          <div class="column small-10 bg-neutral c-neutral-perceptive-luminance text-left">
+            c-neutral-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-neutral"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-neutral
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-neutral-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-neutral-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-neutral-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-neutral-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-neutral-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-neutral-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-white">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-white
+          </div>
+          <div class="column small-10 bg-white c-white-perceptive-luminance text-left">
+            c-white-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-white"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-white
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-white-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-white-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-white-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-white-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-white-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-white-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-very-light-gray">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-very-light-gray
+          </div>
+          <div class="column small-10 bg-very-light-gray c-very-light-gray-perceptive-luminance text-left">
+            c-very-light-gray-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-very-light-gray"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-very-light-gray
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-very-light-gray-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-very-light-gray-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-very-light-gray-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-very-light-gray-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-very-light-gray-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-very-light-gray-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-light-gray">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-light-gray
+          </div>
+          <div class="column small-10 bg-light-gray c-light-gray-perceptive-luminance text-left">
+            c-light-gray-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-light-gray"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-light-gray
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-light-gray-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-light-gray-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-light-gray-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-light-gray-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-light-gray-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-light-gray-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-gray">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-gray
+          </div>
+          <div class="column small-10 bg-gray c-gray-perceptive-luminance text-left">
+            c-gray-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-gray"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-gray
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-gray-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-gray-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-gray-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-gray-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-gray-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-gray-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-medium-gray">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-medium-gray
+          </div>
+          <div class="column small-10 bg-medium-gray c-medium-gray-perceptive-luminance text-left">
+            c-medium-gray-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-medium-gray"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-medium-gray
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-medium-gray-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-medium-gray-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-medium-gray-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-medium-gray-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-medium-gray-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-medium-gray-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-dark-gray">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-dark-gray
+          </div>
+          <div class="column small-10 bg-dark-gray c-dark-gray-perceptive-luminance text-left">
+            c-dark-gray-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-dark-gray"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-dark-gray
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-dark-gray-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-dark-gray-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-dark-gray-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-dark-gray-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-dark-gray-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-dark-gray-dark
+          </div>
+        </div>
+      </div>
+
+      <div class="column margin-b-xl">
+        <div class="row">
+          <div class="column small-2 c-black">
+            <b>A</b>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            c-black
+          </div>
+          <div class="column small-10 bg-black c-black-perceptive-luminance text-left">
+            c-black-perceptive-luminance
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-black"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-black
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-black-light"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-black-light
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-black-xlight"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-black-xlight
+          </div>
+        </div>
+        <div class="row margin-t margin-xsmall">
+          <div class="column small-2">
+            <div class="color-block bg-black-dark"></div>
+          </div>
+          <div class="column small-10 c-dark-gray text-left">
+            bg-black-dark
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Grid list</h2>
+
+    <div class="row margin-b-xs">
+      <div class="medium-12 columns">
+        <div class="list">
+          <div class="item primary">primary</div>
+          <div class="item secondary">secondary</div>
+          <div class="item default">default</div>
+          <div class="item success">success</div>
+          <div class="item warning">warning</div>
+          <div class="item alert">alert</div>
+          <div class="item info">info</div>
+          <div class="item filter">filter</div>
+          <div class="item simulation">simulation</div>
+          <div class="item finact">finact</div>
+          <div class="item fairways">fairways</div>
+          <div class="item insito">insito</div>
+          <div class="item violet">violet</div>
+          <div class="item neutral">neutral</div>
+          <div class="item white">white</div>
+          <div class="item very-light-gray">very-light-gray</div>
+          <div class="item light-gray">light-gray</div>
+          <div class="item gray">gray</div>
+          <div class="item medium-gray">medium-gray</div>
+          <div class="item dark-gray">dark-gray</div>
+          <div class="item black">black</div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Callouts & notifications</h2>
+
+    <div class="row margin-b-xs">
+      <div class="medium-12 columns">
+        <div class="callout primary">
+          <h5>This is a primary callout</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="row margin-b-xs">
+      <div class="medium-12 columns">
+        <div class="callout secondary">
+          <h5>This is a secondary callout</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="row margin-b-xs">
+      <div class="medium-12 columns">
+        <div class="callout success">
+          <h5>This is a success callout</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="row margin-b-xs">
+      <div class="medium-12 columns">
+        <div class="callout warning">
+          <h5>This is a warning callout</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="row margin-b-xs">
+      <div class="medium-12 columns">
+        <div class="callout alert">
+          <h5>This is a alert callout</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-b"></div>
+
+    <div class="notification primary margin-t margin-b">Notification Primary</div>
+    <div class="notification secondary margin-b">Notification Secondary</div>
+    <div class="notification info margin-b">Notification Info</div>
+    <div class="notification success margin-b">Notification Success</div>
+    <div class="notification warning margin-b">Notification Warning</div>
+    <div class="notification alert margin-b">Notification Alert</div>
+    <div class="notification fairways margin-b">Notification Fairways</div>
+    <div class="notification insito margin-b">Notification Insito</div>
+    <div class="notification finact margin-b">Notification Finact</div>
+    <div class="notification filter margin-b">Notification Filter</div>
+    <div class="notification transparent margin-b">Notification Transparent</div>
+    <div class="notification simulation">Notification Simulation</div>
+      
+      <div class="notification-template-style bg-success margin-t" style="height: 70px !important; width: 301px !important;">
+            <div class="progress-notification success margin-b">
+                <div class="indeterminate"></div>
+            </div>
+            <div class="row">
+                <div class="columns small-9">
+                    <h1 class="c-white">This is just a title</h1>
+                    <h3 class="c-white margin-t-xs">This is just some content</h3>
+                </div>
+                <div class="columns small-3">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 56.693 56.693" enable-background="new 0 0 56.693 56.693" xml:space="preserve"><polyline fill="none" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="6.346,32.346 20.346,48.096 50.386,9.051 "/></svg>
+                </div>
+            </div>
+        </div>
+      
+      
+    <h2 class="margin-t-xl margin-b padding-b-xs border-b c-primary">Custom icons</h2>
+
+    <div class="row">
+      <div class="columns small-4">
+        <div class="bg-filter bg-hover padding-all padding-small text-center margin-b margin-small c-dark-gray">
+          <span class="fwico fwico-2x fwico-fx-utils-excel"></span>
+          <div class="f-10"> fwico-fx-utils-excel</div>
+        </div>
+      </div>
+      <div class="columns small-4">
+        <div class="bg-filter bg-hover padding-all padding-small text-center margin-b margin-small c-dark-gray">
+          <span class="fwico fwico-2x fwico-fx-utils-simple_risk"></span>
+          <div class="f-10"> fwico-fx-utils-simple_risk</div>
+        </div>
+      </div>
+      <div class="columns small-4">
+        <div class="bg-filter bg-hover padding-all padding-small text-center margin-b margin-small c-dark-gray">
+          <span class="fwico fwico-2x fwico-fx-utils-trade"></span>
+          <div class="f-10"> fwico-fx-utils-trade</div>
+        </div>
+      </div>
+    </div>
+    
+        <div class="row margin-t-xl">
+            <div class="columns medium-6 small-12">
+                <div class="card card-edit-toggle" id="inline1" data-toggler="card-edit-border" aria-expanded="true">
+                    <div id="og-detail1" data-toggler="is-hidden" aria-expanded="true">
+                        <div class="card-header card-padding">
+                            <h5 class="c-medium-gray">Transaction
+                                <a class="icon-edit-toggle float-right" data-toggle="edit-detail1 og-detail1 inline1">
+                                    <i class="fa fa-pencil"></i>
+                                    <span>EDIT</span>
+                                </a>
+                            </h5>
+                        </div>
+                        <div class="card-body card-padding">
+                            <table class="small separated condensed">
+                                <tbody>
+                                    <tr>
+                                        <th class="text-left c-medium-gray" width="40%"> Trade Date </th>
+                                        <td><b>2015-07-01</b></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-left c-medium-gray">Principal</th>
+                                        <td><b>1,000,000.00 SEK</b></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-left c-medium-gray">Rounding Rule </th>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-left c-medium-gray">Amortization Type </th>
+                                        <td>Bullet</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="edit-detail1" class="is-hidden" data-toggler="is-hidden" aria-expanded="false">
+                        <div class="card-header card-padding">
+                            <h5 class="c-medium-gray">Transaction
+                                <a class="float-right" data-toggle="og-detail1 edit-detail1 inline1">
+                                </a>
+                            </h5>
+                        </div>
+                        <div class="card-body card-padding">
+                            <div class="row">
+                                <div class="small-6 columns margin-b-s">
+                                    <label><b>Principal </b><span class="c-alert">*</span>
+                                        <input type="text" placeholder="Title" required="">
+                                      </label>
+                                </div>
+                                <div class="small-6 columns margin-b-s">
+                                    <label><b>Trade Date </b><span class="c-alert">*</span>
+                                        <div class="input-group">
+                                            <span class="input-group-label"><span class="fa fa-calendar"></span></span>
+                                            <input id="value-date" type="text" placeholder="Ex:YYYY-MM-DD" class="fdatepicker input-group-field" required="">
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="small-6 columns margin-b-s">
+                                    <label><b>Rounding</b>
+                                        <select required="">
+                                            <option value="debt">-</option> 
+                                            <option value="hr">Human resources</option> 
+                                            <option value="ope">General operations</option>
+                                            <option value="admin">Administration</option> 
+                                            <option value="assets">Financial assets</option> 
+                                        </select>
+                                      </label>
+                                </div>
+                                <div class="small-6 columns margin-b-s">
+                                    <label><b>Amortization </b><span class="c-alert">*</span>
+                                    </label>
+                                    <label class="option_label i-block margin-r info" for="senseCredit">
+                                        <input type="radio" name="sense" id="senseCredit" value="credit" checked="">
+                                        <i></i> <span>Bullet</span> 
+                                    </label>
+                                    <label class="option_label i-block info" for="senseDebit">
+                                        <input type="radio" name="sense" id="senseDebit" value="debit">
+                                        <i></i> <span>Debit</span> 
+                                    </label>
+                                </div>
+                                <div class="small-12 columns text-right margin-v-s">
+                                    <button data-toggle="og-detail1 edit-detail1 inline1" type="submit" class="button transparent"><span class="c-dark-gray">Cancel</span></button>
+                                    <button type="submit" class="button success margin-r-xs">Apply</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns medium-6 small-12">
+                <div class="card card-edit-toggle" id="inline2" data-toggler="card-edit-border" aria-expanded="true">
+                    <div id="og-detail2" data-toggler="is-hidden" aria-expanded="true">
+                        <div class="card-header card-padding">
+                            <h5 class="c-medium-gray">Transaction
+                                <a class="icon-edit-toggle float-right" data-toggle="edit-detail2 og-detail2 inline2">
+                                    <i class="fa fa-pencil"></i>
+                                    <span>EDIT</span>
+                                </a>
+                            </h5>
+                        </div>
+                        <div class="card-body card-padding">
+                            <table class="small separated condensed">
+                                <tbody>
+                                    <tr>
+                                        <th class="text-left c-medium-gray" width="40%">Start Date </th>
+                                        <td><b>2015-07-01</b></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-left c-medium-gray">Maturity Date (Unadjusted)</th>
+                                        <td><b>2017-07-01</b></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-left c-medium-gray">Maturity Date </th>
+                                        <td><b>2017-07-01</b></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-left c-medium-gray">First Roll Date </th>
+                                        <td><b>-</b></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="edit-detail2" class="is-hidden" data-toggler="is-hidden" aria-expanded="false">
+                        <div class="card-header card-padding">
+                            <h5 class="c-medium-gray">Transaction
+                                <a class="float-right" data-toggle="og-detail2 edit-detail2 inline2">
+                                </a>
+                            </h5>
+                        </div>
+                        <div class="card-body card-padding">
+                            <div class="row">
+                                <div class="small-6 columns margin-b-s">
+                                    <label><b>Start Date </b><span class="c-alert">*</span>
+                                        <div class="input-group">
+                                            <span class="input-group-label"><span class="fa fa-calendar"></span></span>
+                                            <input id="value-date" type="text" placeholder="Ex:YYYY-MM-DD" class="fdatepicker input-group-field" required="">
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="small-6 columns margin-b-s">
+                                    <label><b>Maturity Date </b><span class="c-alert">*</span>
+                                        <div class="input-group">
+                                            <span class="input-group-label"><span class="fa fa-calendar"></span></span>
+                                            <input id="value-date" type="text" placeholder="Ex:YYYY-MM-DD" class="fdatepicker input-group-field" required="">
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="small-6 columns margin-b-s">
+                                    <label><b>First Roll Date </b><span class="c-alert">*</span>
+                                        <div class="input-group">
+                                            <span class="input-group-label"><span class="fa fa-calendar"></span></span>
+                                            <input id="value-date" type="text" placeholder="Ex:YYYY-MM-DD" class="fdatepicker input-group-field" required="">
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="small-12 columns text-right margin-v-s">
+                                    <button data-toggle="og-detail2 edit-detail2 inline2" type="submit" class="button transparent"><span class="c-dark-gray">Cancel</span></button>
+                                    <button type="submit" class="button success margin-r-xs">Apply</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+    </div>
+</div>
+
+</body>
+</html>
